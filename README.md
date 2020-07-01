@@ -5,13 +5,14 @@ You will store that data as instances of a class and then use `matplotlib` to ge
 You will need to create and run a Python file called `weather.py` to complete this project.
 
 ### Step 1
-Sign up for an account and obtain an API key from [Climacell](https://developer.climacell.co/). Read the Climacell [docs](https://developer.climacell.co/v3/reference#get-realtime) on hot to make a request for a specific latitide and longitude's current weather.
+Sign up for an account and obtain an API key from [Climacell](https://developer.climacell.co/). Read the Climacell [docs](https://developer.climacell.co/v3/reference#get-realtime) on how to make a request for a specific latitide and longitude's current weather.
 
 ### Step 2
 Read the docs for the [requests](https://requests.readthedocs.io/en/master/user/quickstart/) library and note how to make a request.
 
 ### Step 3
 Create a list of tuples called `locations` that contains pairs of (latitude, longitude) for 10 locations of your choice.
+tup0
 
 ### Step 4
 Make a request to the realtime endpoint using `requests` to obtain the temp and precipitation for the latitude and longitude (23.0506249, -82.4730905).
